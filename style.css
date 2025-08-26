@@ -1,9 +1,9 @@
-/* ====== ESTILO GENERAL ====== */
+
 table {
   margin: 20px auto;
   border-collapse: collapse;
   text-align: center;
-  transform: scale(0.9);       /* reduce el tamaño general */
+  transform: scale(0.9);    
   transform-origin: center;
 }
  
@@ -23,7 +23,6 @@ table {
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
 }
  
-/* ====== TEXTO INTERNO ====== */
 .numero {
   font-size: 8px;
   text-align: left;
@@ -47,7 +46,6 @@ table {
   color: #444;
 }
  
-/* ====== COLORES POR GRUPOS ====== */
 .no_metales {
   background-color: #ffcc99;   /* Naranja claro */
 }
