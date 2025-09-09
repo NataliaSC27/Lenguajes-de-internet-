@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #fdf6f3;
+    color: #1f1f1f;
+}
+
+header {
+    background-color: #a00000;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 1.1rem;
+}
+
+nav {
+    background-color: #ae2424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ffe5e0;
+}
+
+.buscador {
+    display: flex;
+}
+
+.buscador input {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.buscador button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #a00000;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.buscador button:hover {
+    background-color: #800000;
+}
+
+.introduccion {
+    padding: 25px;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -25px;
+}
+
+.tabla-noticias {
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.tabla-noticias h2 {
+    margin-top: -20px;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #fff9f9;
+}
+
+th,
+td {
+    border: 1px solid #d4aaaa;
+    text-align: center;
+}
+
+th {
+    background-color: #a00000;
+    color: white;
+}
+
+tr:hover {
+    background-color: #fff1f1;
+}
+
+.cards {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    background-color: #fdf6f3;
+}
+
+.card {
+    background-color: #fff9f9;
+    border: 1px solid #e4cfcf;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: scale(1.07);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card p {
+    padding: 12px;
+}
+
+footer {
+    background-color: #a00000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: bottom;
+}
